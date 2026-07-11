@@ -1,126 +1,87 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Tahoma, Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
 
-body {
-    background: #050505;
-    color: white;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>فروشگاه فایل</title>
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 8%;
-    background: #111;
-    border-bottom: 1px solid #333;
-}
+    <link rel="stylesheet" href="style.css">
+</head>
 
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
+<body>
 
+<header>
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
+    <div class="logo">
+        فروشگاه فایل
+    </div>
 
+    <nav>
+        <a href="index.html">خانه</a>
+        <a href="#">محصولات</a>
+    </nav>
 
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-}
-
-
-.hero h1 {
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-
-
-.hero p {
-    color: #bbb;
-    font-size: 18px;
-}
+</header>
 
 
 
-.products {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-}
+<section class="hero">
 
+    <h1>
+        پک عکس با کیفیت
+    </h1>
 
-.card {
-    width: 350px;
-    background: #151515;
-    border-radius: 20px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 30px #000;
-}
+    <p>
+        مجموعه تصاویر با کیفیت بالا
+    </p>
 
-
-.card img {
-    width: 100%;
-    border-radius: 15px;
-}
-
-
-.card h2 {
-    margin: 20px 0;
-}
-
-
-.card p {
-    color: #aaa;
-}
+</section>
 
 
 
-button {
-    margin-top: 20px;
-    padding: 14px 35px;
-    border: none;
-    border-radius: 30px;
-    background: white;
-    color: black;
-    cursor: pointer;
-    font-size: 17px;
-}
+<section class="products">
 
 
-button:hover {
-    transform: scale(1.05);
-}
+<div class="card">
 
 
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #777;
-}
+<img src="https://via.placeholder.com/600x400"
+alt="پک عکس">
 
 
 
-@media(max-width:700px){
+<h2>
+پک عکس با کیفیت امام شهید سید علی خامنه ای
+</h2>
 
-    header {
-        flex-direction: column;
-        gap: 20px;
-    }
 
-    .hero h1 {
-        font-size: 32px;
-    }
+<p>
+مجموعه تصاویر با کیفیت برای دانلود
+</p>
 
-}
+
+<a href="login.html" class="download-btn">
+دانلود
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+تمامی حقوق محفوظ است
+
+</footer>
+
+
+</body>
+
+</html>
